@@ -1,0 +1,15 @@
+{
+  "name": "waviez",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "lr-http-server -p 4000 -w *.js,*.css,*.html",
+    "test": "xo"
+  },
+  "devDependencies": {
+    "lr-http-server": "^0.1.5",
+    "p5": "^0.5.9",
+    "xo": "^0.23.0"
+  }
+}
